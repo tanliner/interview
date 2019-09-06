@@ -1,3 +1,6 @@
+**原力字节**，竟然没有他们发现官网...
+
+
 序号不是严格提问顺序
 -----
 
@@ -117,3 +120,8 @@ call 完成就回到了Retrofit的execute，再通过 `parseResponse(response)` 
 
 responseConverter 是 converterFactories.get(i).responseBodyConverter创建在 `loadServiceMethod` 的时候传入的
 
+
+### 13. MVVM - MVP 优劣
+MVVM 基于databinding 不利于扩展，View的绑定了数据类，不利于复用<br>
+MVP  presenter 比较重，View可复用性较强，但逻辑比较集中，维护起来相对还好，也利于编写测试用例，直接可以单独测试 M/P/V<br>
+[简书-Android-MVP-测试用例](https://www.jianshu.com/p/cf446be43ae8)<br>
